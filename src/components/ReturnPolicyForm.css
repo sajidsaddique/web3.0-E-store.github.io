@@ -1,0 +1,49 @@
+.return-policy-form {
+  max-width: 600px; /* Increased width for a more spacious feel */
+  margin: 10px auto; /* Added margin for centering and space around the form */
+  padding: 15px;
+  border: 1px solid #ddd; /* Lightened border color */
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Soft background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added subtle box shadow */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold; /* Increased label's font weight */
+}
+
+input[type='text'],
+input[type='email'],
+select,
+textarea {
+  width: calc(100% - 18px); /* Adjusted width to accommodate border */
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px; /* Increased font size */
+}
+
+textarea {
+  min-height: 120px; /* Set a minimum height for the textarea */
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
